@@ -3,6 +3,7 @@ Apex is the programming language used in Salesforce.
 It is used when normal clicks, flows, and configuration are not enough.
 Using Apex, developers can create custom business logic, validations, integrations, and automation.
 For example, in a college management system, Apex can automatically block student registration when course seats are full.
+
 2.Difference Between Flow and Apex
 Flow: 
 No-code automation
@@ -28,28 +29,31 @@ Examples:
 - Payment integration
 - Complex calculations
 - External APIs
+  
 3. Real Examples Where Apex Is Needed
 Example 1 – Complex Fee Calculation
 If scholarship, attendance, and category all affect fees, Flow becomes difficult. Apex can handle this logic better.
 Example 2 – Payment Gateway Integration
 To connect Salesforce with external payment systems, Apex APIs are required.
-  4. Integrated College Management System
+
+4. Integrated College Management System
 CRM:
 Salesforce helps manage student admissions and course records.
-Objects
+Objects:
 - Student
 - Course
 - Faculty
 - Attendance
-Relationships
+Relationships:
 Students are connected with courses and faculty members.
-Validation
+Validation:
 Email field should not be empty during registration.
-Flow
+Flow:
 Automatic email notification is sent after admission approval.
-Apex
+Apex:
 Apex checks course seat availability before registration.
-5.Pseudocode Examples
+
+5.Pseudocode Examples:
 Example 1
 IF seats are full  
 THEN block registration
@@ -59,6 +63,7 @@ THEN notify student
 Example 3
 IF fee is not paid  
 THEN prevent exam registration
+
  6.Reflection
 I understood that enterprise systems cannot depend only on clicks and configuration because some business logic becomes very complex.
 Flows are useful for simple automation, but Apex gives more flexibility and control.
